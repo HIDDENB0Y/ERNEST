@@ -74,8 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi✨
-Itz ERNEST Here...
+Hello there, I'm [ERNEST](https://te.legra.ph/file/7528296c17be0599ebed1.png)
 I am a Pro Group Manager😎Which helps to manage big groups easily with my features 😌
 •know More about me click on **About Me✨**
 • Get Help by Clicking on **HELP** or Use `/help`

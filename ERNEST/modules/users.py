@@ -31,7 +31,7 @@ def get_user_id(username):
 
     users = sql.get_userid_by_name(username)
 
-    if not users:
+    if not users: 
         return None
 
     elif len(users) == 1:

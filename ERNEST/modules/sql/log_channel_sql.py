@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, distinct, func
 
-from love.modules.sql import BASE, SESSION
+from ERNEST.modules.sql import BASE, SESSION
 
 
 class GroupLogs(BASE):

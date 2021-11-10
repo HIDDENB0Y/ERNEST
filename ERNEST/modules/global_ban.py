@@ -17,16 +17,16 @@ from telegram.utils.helpers import mention_html
 import ERNEST.modules.sql.global_bans_sql as sql
 from ERNEST.modules.sql.users_sql import get_user_com_chats
 from ERNEST import (
-    FUFA BADMASH,
+    DEV_USERS,
     EVENT_LOGS,
     OWNER_ID,
     STRICT_GBAN,
-    CHACHA VIDHAYAK,
+    DRAGONS,
     SUPPORT_CHAT,
     SPAMWATCH_SUPPORT_CHAT,
-    SHETAN,
-    KUTTE,
-    BHEDIYA,
+    DEMONS,
+    TIGERS,
+    WOLVES,
     sw,
     dispatcher,
 )

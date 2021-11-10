@@ -4,13 +4,12 @@ import os
 from typing import Optional
 
 from ERNEST import (
-    FUFA BADMASH,
+    DEV_USERS,
     OWNER_ID,
-    CHACHA VIDHAYAK,
-    SUPPORT_CHAT,
-    SHETAN,
-    KUTTE,
-    BHEDIYA,
+    DRAGONS,
+    DEMONS,
+    TIGERS,
+    WOLVES,
     dispatcher,
 )
 from ERNEST.modules.helper_funcs.chat_status import (

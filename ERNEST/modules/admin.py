@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from ERNESTRoBot import CHACHA VIDHAYAK, dispatcher
+from ERNESTRoBot import DRAGONS, dispatcher
 from ERNESTRoBot.modules.disable import DisableAbleCommandHandler
 from ERNESTRoBot.modules.helper_funcs.chat_status import (
     bot_admin,

@@ -14,12 +14,12 @@ from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
 from ERNEST import (
-    FUFA BADMASH,
+    DEV_USERS,
     OWNER_ID,
-    CHACHA VIDHAYAK,
-    SHETAN,
-    KUTTE,
-    BHEDIYA,
+    DRAGONS,
+    DEMONS,
+    TIGERS,
+    WOLVES,
     INFOPIC,
     dispatcher,
     sw,

@@ -12,7 +12,7 @@ from telegram.ext import (
 )
 
 import ERNEST.modules.sql.users_sql as sql
-from ERNEST import FUFA BADMASH, LOGGER, OWNER_ID, dispatcher
+from ERNEST import DEV_USERS, LOGGER, OWNER_ID, dispatcher
 from ERNEST.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from ERNEST.modules.sql.users_sql import get_all_users
 

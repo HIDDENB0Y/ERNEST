@@ -17,10 +17,10 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
-from MashaRoBot.modules.helper_funcs.filters import CustomFilters
-from MashaRoBot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from MashaRoBot import dispatcher, updater, SUPPORT_CHAT
-from MashaRoBot.modules.log_channel import gloggable
+from ERNEST.modules.helper_funcs.filters import CustomFilters
+from ERNEST.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from ERNEST import dispatcher, updater, SUPPORT_CHAT
+from ERNEST.modules.log_channel import gloggable
 
  
 @user_admin_no_reply
@@ -37,12 +37,12 @@ def kukirm(update: Update, context: CallbackContext) -> str:
             is_kuki = sql.rem_kuki(user_id)
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
-                f"Athena AI Disabled\n"
+                f"EMMA AI Disabled\n"
                 f"<b>Admin:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
             )
         else:
             update.effective_message.edit_text(
-                "Athena Chatbot Disable By {}.".format(mention_html(user.id, user.first_name)),
+                "EMMA Chatbot Disable By {}.".format(mention_html(user.id, user.first_name)),
                 parse_mode=ParseMode.HTML,
             )
 
@@ -62,7 +62,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
             is_kuki = sql.set_kuki(user_id)
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
-                f"Athena AI Enable\n"
+                f"EMMA AI Enable\n"
                 f"<b>Admin:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
             )
         else:
